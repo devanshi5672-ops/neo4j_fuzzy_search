@@ -1,5 +1,11 @@
 flask
 flask-cors
 neo4j
-rapidfuzz
 python-dotenv
+rapidfuzz==2.13.7
+jellyfish==0.9.0
+sentence-transformers==2.2.2   # only if USE_EMBEDDINGS=1
+torch>=1.12.0                  # if using sentence-transformers
+numpy
+scikit-learn
+
